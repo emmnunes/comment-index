@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Comment Index",
+        "command": "comment-index:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Comment Index",
+          "submenu": [
+            {
+              "label": "Toggle Comment Index",
+              "command": "comment-index:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
