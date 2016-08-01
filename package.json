@@ -3,12 +3,16 @@
   "main": "./lib/comment-index",
   "version": "0.0.0",
   "description": "Generates a comment index tree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmnunes/comment-index.git"
+  },
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "comment-index:toggle"
   },
-  "repository": "https://github.com/atom/comment-index",
+  "repository": "https://github.com/emmnunes/comment-index",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
