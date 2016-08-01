@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle Comment Index",
+        "label": "Toggle Comment Navigator",
         "command": "comment-index:toggle"
       }
     ]
@@ -17,6 +17,10 @@
             {
               "label": "Toggle Comment Index",
               "command": "comment-index:toggle"
+            },
+            {
+              "label": "Refresh Comment Index",
+              "command": "comment-index:refresh"
             }
           ]
         }
